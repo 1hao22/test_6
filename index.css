@@ -1,0 +1,105 @@
+*{
+    font-family: 'cwTeXYen';
+    font-weight: 700;
+}
+.background{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1194px;
+    height: 834px;
+    background-color: #FFE9E9;
+}
+.leave{
+    position: absolute;
+    left: 1068px;
+    top: 70px;    
+}
+.timebar{
+    position: absolute;
+    left: 92px;
+    top: 68px;
+}
+.textbar{
+    position: absolute;
+    left: 80px;
+    top: 208px;
+}
+.teeth{
+    position: absolute;
+    left: 0px;
+    top: 566px;
+}
+.text{
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    left: 320px;
+    top: 205px;
+    letter-spacing: 1px;
+}
+.blue{
+    position: absolute;
+    left: 95px;
+    top: 394px;
+    animation: shake1 1.5s ease 0s infinite alternate none;
+}
+.green{
+    position: absolute;
+    left: 252px;
+    top: 587px;
+    animation: shake2 1.5s ease 0s infinite alternate none;
+}
+.yellow{
+    position: absolute;
+    left: 630px;
+    top: 405px;
+    animation: shake3 1.5s ease 0s infinite alternate none;
+}
+.purple{
+    position: absolute;
+    left: 817px;
+    top: 587px;
+    animation: shake4 1.5s ease 0s infinite alternate none;
+}
+@keyframes shake1 {
+    from{
+        left: 75px;
+        top: 404px;
+    }
+    
+    to{
+        left: 115px;
+        top: 394px;
+    }
+}
+@keyframes shake2 {
+    from{
+        left: 272px;
+        top: 587px;
+    }
+    to{
+        left: 232px;
+        top: 587px;
+    }
+}
+@keyframes shake3 {
+    from{
+        left: 610px;
+        top: 394px;
+    }
+    to{
+        left: 650px;
+        top: 394px;
+    }
+}
+@keyframes shake4 {
+    from{
+        left: 820px;
+        top: 587px;
+    }
+    to{
+        left: 780px;
+        top: 577px;
+    }
+}
